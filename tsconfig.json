@@ -1,0 +1,23 @@
+
+{
+  
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "include": ["./src", "src/custom.d.ts"],
+  
+}

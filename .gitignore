@@ -1,0 +1,9 @@
+node_modules
+yarn-error.log
+import
+.idea
+.DS_Store
+dist
+dist-ssr
+*.local
+.yarn
